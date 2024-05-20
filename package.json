@@ -1,0 +1,29 @@
+{
+  "name": "mapsproject",
+  "version": "1.12.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@types/bootstrap": "^5.2.10",
+    "@types/jquery": "^3.5.30",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "jspdf": "^2.5.1",
+    "leaflet": "^1.9.4",
+    "svg2pdf.js": "^2.2.3",
+    "yfiles": "/home/joseph/Downloads/yFiles-for-HTML-Complete-2.6.0.3-Evaluation/lib-dev/yfiles-26.0.3+eval-dev.tgz"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.12",
+    "prettier": "^3.2.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-node-polyfills": "^0.19.0"
+  }
+}
